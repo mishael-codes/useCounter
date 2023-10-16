@@ -6,7 +6,7 @@ const Counter = () => {
   const { count, increment, decrement, reset, setValue } = useCounter();
 
   return (
-    <div className="bg-orange-500 p-20 rounded-lg shadow-custom">
+    <div className="flex items-center justify-center flex-col bg-orange-500 p-20 rounded-lg shadow-container w-screen counter-container">
       <h2 className="font-semibold text-center text-black text-[30px]">
         Count <br />
         <span className="font-bold">{count}</span>
@@ -16,16 +16,19 @@ const Counter = () => {
           type="number"
           value={count}
           onChange={(e) => setValue(parseInt(e.target.value, 10))}
-          className="w-16 h-11 rounded-lg ps-7 mx-1 mb-2 text-orange-500"
+          className="bg-black w-16 h-11 rounded-lg ps-7 mx-1 mb-2 text-orange-500"
         />
-        <button className="w-16 h-11 mx-1 text-orange-500" onClick={increment}>
+        <button className="w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform" onClick={increment}>
           <Icon.ChevronUp />
+          <sub className="hi absolute bottom-[-15px] left-1 text-black">Increment</sub>
         </button>
-        <button className="w-16 mx-1 text-orange-500" onClick={decrement}>
+        <button className="w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform" onClick={decrement}>
           <Icon.ChevronDown />
+          <sub className="hi absolute bottom-[-15px] left-1 text-black">Decrement</sub>
         </button>
-        <button className="w-16 mx-1 text-orange-500" onClick={reset}>
+        <button className="w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform" onClick={reset}>
           <Icon.RotateCcw />
+          <sub className="hi absolute bottom-[-15px] left-4 text-black">Reset</sub>
         </button>
       </div>
     </div>

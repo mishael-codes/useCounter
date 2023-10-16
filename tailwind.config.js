@@ -5,9 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      mobile: "320px"
+    },
     extend: {
       boxShadow: {
-        custom: "15px 15px 40px rgba(100, 50, 0, 0.7)"
+        button: "2.5px 2.5px 10px rgba(0, 0, 0, 0.5)",
+        container: "15px 15px 40px rgba(100, 50, 0, 0.7)",
       }
     },
   },
