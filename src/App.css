@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  overflow: hidden;
+}
+
 .h1{
   color: rgb(249 115 22);
   /* text-shadow: 3px 3px rgb(249 115 22), -3px 3px rgb(249 115 22), 0px -3px rgb(249 115 22); */
