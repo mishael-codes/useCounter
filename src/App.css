@@ -24,6 +24,10 @@ body{
   }
 }
 
+button{
+  -webkit-tap-highlight-color: transparent;
+}
+
 @media screen and (min-width: 800px) {
   .error-container,
   .counter-container {
