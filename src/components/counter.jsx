@@ -6,6 +6,8 @@ const Counter = () => {
   const { count, increment, decrement, reset, setValue } = useCounter();
 
   return (
+    <>
+    <h1 className="text-center mb-10 font-bold text-3xl md:text-5xl h1">Counter App</h1>
     <div className="flex items-center justify-center flex-col bg-orange-500 p-10 md:p-20 rounded-lg shadow-container w-screen counter-container">
       <h2 className="font-semibold text-center text-black text-[30px]">
         Count <br />
@@ -47,6 +49,7 @@ const Counter = () => {
         </button>
       </div>
     </div>
+    </>
   );
 };
 
