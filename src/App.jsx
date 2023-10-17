@@ -15,7 +15,7 @@ function App() {
         </Routes>
       </main>
       <footer className="flex items-center justify-center">
-        <p className="text-2xl absolute bottom-12">
+        <p className="text-xs md:text-2xl absolute bottom-12">
           Built with 💙 by <a href={myUrl}>Mishael Enyi</a>
         </p>
       </footer>
