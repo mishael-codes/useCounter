@@ -23,7 +23,7 @@ const Counter = () => {
           onClick={increment}
         >
           <Icon.ChevronUp />
-          <sub className="hi absolute bottom-[-15px] left-1 text-black">
+          <sub className="absolute bottom-[-15px] left-1 text-black">
             Increment
           </sub>
         </button>
@@ -32,7 +32,7 @@ const Counter = () => {
           onClick={decrement}
         >
           <Icon.ChevronDown />
-          <sub className="hi absolute bottom-[-15px] left-1 text-black">
+          <sub className="absolute bottom-[-15px] left-1 text-black">
             Decrement
           </sub>
         </button>
@@ -41,7 +41,7 @@ const Counter = () => {
           onClick={reset}
         >
           <Icon.RotateCcw />
-          <sub className="hi absolute bottom-[-15px] left-4 text-black">
+          <sub className="absolute bottom-[-15px] left-4 text-black">
             Reset
           </sub>
         </button>
