@@ -16,10 +16,10 @@ const Counter = () => {
           type="number"
           value={count}
           onChange={(e) => setValue(parseInt(e.target.value, 10))}
-          className="bg-almostBlack w-16 h-11 rounded-lg ps-3 mx-1 mb-2 text-orange-500 focus:outline-none transform active:scale-75 transition-transform"
+          className="bg-almostBlack flex items-center justify-center w-14 md:w-16 h-11 rounded-lg ps-3 mx-1 mb-2 text-orange-500 focus:outline-none transform active:scale-75 transition-transform"
         />
         <button
-          className="w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
+          className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
           onClick={increment}
         >
           <Icon.ChevronUp />
@@ -28,7 +28,7 @@ const Counter = () => {
           </sub>
         </button>
         <button
-          className="w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
+          className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
           onClick={decrement}
         >
           <Icon.ChevronDown />
@@ -37,7 +37,7 @@ const Counter = () => {
           </sub>
         </button>
         <button
-          className="w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
+          className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
           onClick={reset}
         >
           <Icon.RotateCcw />
