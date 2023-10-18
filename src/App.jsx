@@ -24,7 +24,7 @@ function App() {
         </main>
         <footer className="flex items-center justify-center">
           <p className="text-xs md:text-lg absolute bottom-8">
-            Built with 💙 by <a href={myUrl}>Mishael Enyi</a>
+            Built with 💙 by <a href={myUrl} className="text-orange-500 hover:underline underline-offset-1">Mishael Enyi</a>
           </p>
         </footer>
       </ErrorBoundary>
