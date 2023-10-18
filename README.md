@@ -29,6 +29,8 @@ The project also said to create a 404 page and a page to test error boundary and
   - [React Feather Icons](https://www.npmjs.com/package/react-feather) - For the button icons
   - [React Error Boundary](https://github.com/bvaughn/react-error-boundary) - Used to implement the error page using error boundary.
 
+### Links: 
+  - [Live Site](https://counter-app-with-use-counter-hook.netlify.app/)
 ### Author
 
 - Twitter - [@mishael_codes](https://www.twitter.com/mishael_codes)
