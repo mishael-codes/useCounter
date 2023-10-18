@@ -14,7 +14,7 @@ const Error = ({ error }) => {
       </p>
       <a href="/">
         <button className="scale-[1.25] transform active:scale-1 transition-transform">
-          Click Me
+          Return to Counter
         </button>
       </a>
     </div>
