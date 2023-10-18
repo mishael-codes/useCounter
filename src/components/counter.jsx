@@ -9,7 +9,7 @@ const Counter = () => {
   return (
     <>
     <NavBar />
-      <h1 className="text-center mb-10 font-bold text-3xl md:text-5xl h1 mt-32">
+      <h1 className="text-center mb-10 font-bold text-2xl md:text-5xl h1 mt-20">
         Counter App
       </h1>
       <div className="flex items-center justify-center flex-col bg-orange-500 p-10 md:p-20 rounded-lg shadow-container w-screen counter-container">

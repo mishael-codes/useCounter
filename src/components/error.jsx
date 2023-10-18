@@ -5,7 +5,7 @@ const Error = ({ error }) => {
         Oh no!
         <br /> Something went wrong...
       </h2>
-      <p className="text-red-600 text-sm md:text-2xl font-bold">
+      <p className="text-red-600 text-sm md:text-xl font-bold">
         {error.message}
       </p>
       <p className="text-xs md:text-2xl mb-10">
