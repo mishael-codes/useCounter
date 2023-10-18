@@ -13,7 +13,7 @@ const Counter = () => {
         Counter App
       </h1>
       <div className="flex items-center justify-center flex-col bg-orange-500 py-20 rounded-lg shadow-container w-screen counter-container">
-        <h2 className="font-semibold text-center text-black text-sm md:text-base">
+        <h2 className="font-semibold text-center text-black text-sm md:text-xl">
           Count <br />
           <span className="font-bold">{count}</span>
         </h2>

@@ -9,7 +9,7 @@ const Error = ({ error }) => {
         {error.message}
       </p>
       <p className="text-xs md:text-lg mb-10">
-        Well, that wasn't supposed to happen🤔, but don&nbsp;t worry about it
+        Well, that wasn't supposed to happen🤔, but don't worry about it
         and leave this mess for the developers.😁
       </p>
       <a href="/">
