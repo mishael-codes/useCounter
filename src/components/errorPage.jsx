@@ -7,7 +7,7 @@ const ErrorPage = () => {
 
   return (
     <>
-      <h1 className="text-center mb-10 font-bold text-3xl md:text-5xl h1">
+      <h1 className="text-center mb-10 font-bold text-3xl h1">
         Counter App
       </h1>
       <div className="flex items-center justify-center flex-col bg-orange-500 p-10 md:p-20 rounded-lg shadow-container w-screen counter-container">

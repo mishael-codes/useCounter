@@ -9,15 +9,15 @@ const Counter = () => {
   return (
     <>
     <NavBar />
-      <h1 className="text-center mb-10 font-bold text-2xl md:text-5xl h1 mt-20">
+      <h1 className="text-center mb-6 font-bold text-xl md:text-3xl h1 mt-10">
         Counter App
       </h1>
-      <div className="flex items-center justify-center flex-col bg-orange-500 p-10 md:p-20 rounded-lg shadow-container w-screen counter-container">
-        <h2 className="font-semibold text-center text-black text-[30px]">
+      <div className="flex items-center justify-center flex-col bg-orange-500 p-10 rounded-lg shadow-container w-screen counter-container">
+        <h2 className="font-semibold text-center text-black text-sm">
           Count <br />
           <span className="font-bold">{count}</span>
         </h2>
-        <div className="mt-20 flex items-start">
+        <div className="mt-10 flex items-start">
           <input
             type="number"
             value={count}

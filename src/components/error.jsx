@@ -5,10 +5,10 @@ const Error = ({ error }) => {
         Oh no!
         <br /> Something went wrong...
       </h2>
-      <p className="text-red-600 text-sm md:text-xl font-bold">
+      <p className="text-red-600 text-sm md:text-lg font-bold">
         {error.message}
       </p>
-      <p className="text-xs md:text-2xl mb-10">
+      <p className="text-xs md:text-lg mb-10">
         Well, that wasn't supposed to happen🤔, but don&nbsp;t worry about it
         and leave this mess for the developers.😁
       </p>
