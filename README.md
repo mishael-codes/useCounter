@@ -18,9 +18,9 @@ The project also said to create a 404 page and a page to test error boundary and
 
 ### Screenshots
 
-  - [](./src/assets/screenshots/Counter%20App.png)
-  - [](./src/assets/screenshots/error%20404.png)
-  - [](./src/assets/screenshots/error-boundary.png)
+  - [](/src/assets/screenshots/Counter%20App.png)
+  - [](/src/assets/screenshots/error%20404.png)
+  - [](/src/assets/screenshots/error-boundary.png)
 
 ### Technologies:
 
