@@ -10,7 +10,7 @@ const NotFound = () => {
           Page Not Found
         </h1>
         <p className="text-xs md:text-lg">
-          It seems like you entered a wrong url. <br /> Don&nbsp;t worry,{" "}
+          It seems like you entered a wrong url. <br /> Don't worry,{" "}
           <Link to="../" className="text-orange-500 hover:underline transition-all">
             click here
           </Link>{" "}

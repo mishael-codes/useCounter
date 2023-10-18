@@ -1,0 +1,5 @@
+For this project, the following libraries and packages were used:
+  - TailwindCSS (https://tailwindcss.com/docs/installation) - For Styling
+  - React Router Dom - (https://reactrouter.com/) - For client-side routing
+  - React Feather Icons (https://www.npmjs.com/package/react-feather) - For the button icons
+  - React Error Boundary (https://github.com/bvaughn/react-error-boundary) - Used to implement the error page using error boundary.

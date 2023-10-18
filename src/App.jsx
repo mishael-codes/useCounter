@@ -1,7 +1,6 @@
 "use client";
 
 import React from "react";
-import NavBar from "./components/nav";
 import Error from "./components/error";
 import ErrorPage from "./components/errorPage";
 import Counter from "./components/counter";
