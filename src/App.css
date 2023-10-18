@@ -4,17 +4,23 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   overflow: hidden;
 }
 
-.h1{
+.nav a.active {
+  color: rgb(249 115 22);
+  text-shadow: 0px 7px 5px rgb(250, 143, 2);
+}
+
+.h1 {
   color: rgb(249 115 22);
   /* text-shadow: 3px 3px rgb(249 115 22), -3px 3px rgb(249 115 22), 0px -3px rgb(249 115 22); */
   -webkit-text-stroke: 2px rgb(249 115 22);
   -webkit-text-fill-color: rgb(36, 36, 36);
   letter-spacing: 4px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 @media screen and (max-width: 800px) {
@@ -24,11 +30,15 @@ body{
   }
 }
 
-button{
+button,
+a {
   -webkit-tap-highlight-color: transparent;
 }
 
 @media screen and (min-width: 800px) {
+  body {
+    overflow: auto;
+  }
   .error-container,
   .counter-container {
     max-width: 650px;

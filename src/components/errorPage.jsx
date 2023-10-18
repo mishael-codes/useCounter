@@ -2,7 +2,7 @@
 import useCounter from "../hooks/useCounter";
 import * as Icon from "react-feather";
 
-const Counter = () => {
+const ErrorPage = () => {
   const { count, increment, decrement, reset, setValue } = useCounter();
 
   return (
@@ -20,7 +20,7 @@ const Counter = () => {
             type="number"
             value={count}
             onChange={(e) => setValue(parseInt(e.target.value, 10))}
-            className="bg-almostBlack flex items-center justify-center w-14 md:w-16 h-11 rounded-lg ps-3 mx-1 mb-2 text-orange-500 focus:outline-none transform active:scale-75 transition-transform"
+            className="bg-red-500 flex items-center justify-center w-14 md:w-16 h-11 rounded-lg ps-3 mx-1 mb-2 text-orange-500 focus:outline-none transform active:scale-75 transition-transform"
           />
           <button
             className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
@@ -33,7 +33,7 @@ const Counter = () => {
           </button>
           <button
             className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
-            onClick={decrement}
+            onClick={derement}
           >
             <Icon.ChevronDown />
             <sub className="absolute bottom-[-15px] left-1 text-black">
@@ -55,4 +55,4 @@ const Counter = () => {
   );
 };
 
-export default Counter;
+export default ErrorPage;
