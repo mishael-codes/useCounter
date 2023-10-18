@@ -1,4 +1,5 @@
 // import necessary modules and packages
+import NavBar from "./nav";
 import useCounter from "../hooks/useCounter";
 import * as Icon from "react-feather";
 
@@ -7,7 +8,8 @@ const Counter = () => {
 
   return (
     <>
-      <h1 className="text-center mb-10 font-bold text-3xl md:text-5xl h1">
+    <NavBar />
+      <h1 className="text-center mb-10 font-bold text-3xl md:text-5xl h1 mt-32">
         Counter App
       </h1>
       <div className="flex items-center justify-center flex-col bg-orange-500 p-10 md:p-20 rounded-lg shadow-container w-screen counter-container">
@@ -23,7 +25,7 @@ const Counter = () => {
             className="bg-almostBlack flex items-center justify-center w-14 md:w-16 h-11 rounded-lg ps-3 mx-1 mb-2 text-orange-500 focus:outline-none transform active:scale-75 transition-transform"
           />
           <button
-            className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
+            className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button transform active:scale-75 transition-transform"
             onClick={increment}
           >
             <Icon.ChevronUp />
@@ -32,7 +34,7 @@ const Counter = () => {
             </sub>
           </button>
           <button
-            className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
+            className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button transform active:scale-75 transition-transform"
             onClick={decrement}
           >
             <Icon.ChevronDown />
@@ -41,7 +43,7 @@ const Counter = () => {
             </sub>
           </button>
           <button
-            className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button hover:border-none border-none focus:outline-none transform active:scale-75 transition-transform"
+            className="flex items-center justify-center w-14 md:w-16 h-11 mx-1 text-orange-500 hover:shadow-button transform active:scale-75 transition-transform"
             onClick={reset}
           >
             <Icon.RotateCcw />

@@ -14,7 +14,6 @@ function App() {
   const myUrl = "https://mishaelenyi.netlify.app";
   return (
     <BrowserRouter>
-      <NavBar />
       <ErrorBoundary FallbackComponent={Error}>
         <main className="h-[75vh] flex flex-col items-center justify-center">
           <Routes>

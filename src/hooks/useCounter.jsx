@@ -16,7 +16,7 @@ const useCounter = () => {
   };
 
   const setValue = (value) => {
-    setCount(value);
+    setCount(value)
   };
 
   return { count, increment, decrement, reset, setValue };
