@@ -6,9 +6,15 @@ import * as Icon from "react-feather";
 const Counter = () => {
   const { count, increment, decrement, reset, setValue } = useCounter();
 
+  const handleChange = (e) => {
+    const value = e.target.value;
+    if (value === "") {
+      setValue(0);
+    } else setValue(parseInt(value, 10));
+  };
   return (
     <>
-    <NavBar />
+      <NavBar />
       <h1 className="text-center mb-6 font-bold text-xl md:text-3xl h1 mt-10">
         Counter App
       </h1>
@@ -19,9 +25,10 @@ const Counter = () => {
         </h2>
         <div className="mt-10 flex items-start">
           <input
-            type="number"
+            type="text"
             value={count}
-            onChange={(e) => setValue(parseInt(e.target.value, 10))}
+            onChange={handleChange}
+            maxLength="15"
             className="bg-almostBlack flex items-center justify-center w-14 md:w-16 h-11 rounded-lg ps-3 mx-1 mb-2 text-orange-500 focus:outline-none transform active:scale-75 transition-transform"
           />
           <button
