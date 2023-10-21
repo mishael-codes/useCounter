@@ -7,7 +7,7 @@ const NavBar = () => {
         <ul className="nav h-full text-sm md:text-lg flex items-end justify-around">
           <NavLink to="/">Counter</NavLink>
           <NavLink to="./pagenotfound">404</NavLink>
-          <NavLink to="./error">Error</NavLink>
+          <NavLink to="./error">Counter v2</NavLink>
         </ul>
       </nav>
     </>
